@@ -1,0 +1,52 @@
+body{
+    background-color:orange;
+    padding: 50px 100px;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+.container{
+    text-align: center;
+    background-color:rgba(222, 205, 13, 0.83);
+    padding: 60px;
+}
+.input-div{
+    display: inline-block;
+}
+.Inp{
+    padding: 5px 10px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+    text-align: center;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    outline-color: brown;
+}
+.input-div{
+    color: red;
+}
+img{
+    max-height:30px;
+}
+@media only screen and (max-width:600px){
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+.container{
+    padding:0.001px 5px;
+    text-align: center;
+}
+body{
+    padding: 5px 10px 5px;
+}
+.Inp{
+    padding: 5px 10px ;
+    margin: 5px 0px 5px;
+}
+}
